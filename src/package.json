@@ -1,0 +1,14 @@
+{
+  "name": "@hackages/ngx-routing-history",
+  "version": "0.0.1",
+  "description": "A provider for routing history",
+  "main": "bundle/hackages.ngx-routing-history.umd.js",
+  "module": "index.js",
+  "types": "index.d.ts",
+  "author": "Hackages",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/hackages/ngx-routing-history.git",
+    "type": "git"
+  }
+}
