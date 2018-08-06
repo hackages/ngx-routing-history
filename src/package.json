@@ -1,6 +1,6 @@
 {
   "name": "@hackages/ngx-routing-history",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A provider for routing history",
   "main": "bundle/hackages.ngx-routing-history.umd.js",
   "module": "index.js",
