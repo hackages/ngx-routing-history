@@ -36,13 +36,15 @@ export class NgxRoutingHistoryProvider {
     this.router.navigate([url]);
   }
 
-  public back({
-    url = this.getPreviousUrl(),
-    defaultRoute
-  }: {
-    url: string | null;
-    defaultRoute?: string;
-  }) {
+  public back(
+    {
+      url,
+      defaultRoute
+    }: {
+      url?: string;
+      defaultRoute?: string;
+    } = {url: this.getPreviousUrl()}
+  ) {
     if (url || defaultRoute) {
       this.router.navigate([url || defaultRoute]);
       this.history = this.history.slice(0, this.history.lastIndexOf(url));
